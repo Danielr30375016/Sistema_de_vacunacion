@@ -35,7 +35,7 @@ header {
     background: #7F7FD5;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.589), hsla(219, 67%, 72%, 0.623), #2e2e7e), url(Imagenes/toro_fondo.jpg);
-    background: linear-gradient(to right, hsla(130, 63%, 43%, 0.589), hsla(113, 93%, 61%, 0.623), #4fbb46), url(Imagenes/toro_fondo.jpg);
+    background: linear-gradient(to right, hsla(130, 63%, 43%, 0.589), hsla(113, 93%, 61%, 0.623), #4fbb46), url(../Imagenes/toro_fondo.jpg);
     /* background-size: cover; cubre toda la zona y no la repite */
     background-size: cover;
     /* background-attachment: fixed; genera el efecto de que la imagen se mueve con respecto al fondo */

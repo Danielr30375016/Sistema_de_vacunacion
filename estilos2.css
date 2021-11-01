@@ -1,0 +1,23 @@
+.container .titulo h2{
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+main .container .table{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.bb{
+    box-shadow: 0 0 20px #333;
+    
+}
+tr{
+    align-items: center;
+}
+th{
+    padding: 10px;
+    border: solid #4e4a4a;
+    background: rgb(189, 189, 212);
+    align-items: center;
+}

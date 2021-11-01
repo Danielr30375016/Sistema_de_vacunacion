@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Zen Old Mincho', serif;
+}
+
+main {
+    background: #2c3834;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #7F7FD5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.589), hsla(219, 67%, 72%, 0.623), #2e2e7e), url(Imagenes/toro_fondo.jpg);
+    background: linear-gradient(to right, hsla(130, 63%, 43%, 0.589), hsla(113, 93%, 61%, 0.623), #4fbb46), url(Imagenes/toro_fondo.jpg);
+    /* background-size: cover; cubre toda la zona y no la repite */
+    background-size: cover;
+    /* background-attachment: fixed; genera el efecto de que la imagen se mueve con respecto al fondo */
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav a {
+    color: #ece2e2;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #c09898;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #2e2e2e;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-cundi {
+    width: 48%;
+}
+
+.contenedor-sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #3f3f97;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.portafolio {
+    background: #5d5dcac0;
+}
+
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.contenedor h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imagen-port {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.clientes-contenedor {
+    background: #8e8ee7a4;
+}
+
+.cards .card img {
+    width: 200px;
+    height: auto;
+}
+
+.auto-services .contenedor {
+    
+    width: 80%;
+    height: 600px;
+    background: #7c7ca8;
+    box-shadow: 0 0 20px #333;
+}
+
+.auto-services .contenedor h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+.servicio-ind {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.servicio-ind img{
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2e2e2e;
+    color: #e4e4f5;
+    height: 200px;
+}

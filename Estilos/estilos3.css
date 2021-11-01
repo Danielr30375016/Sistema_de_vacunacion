@@ -4,14 +4,17 @@ main .contenido .animal{
     justify-content: space-evenly;
     padding: 5px;
     box-shadow: 0 0 5px #333;
+    color: #fff;
     
 }
 
 main .contenido h2{
     text-align: center;
     padding: 20px;
+    color: #fff;
 }
 main .contenido h3{
     font-size: 20px;
     padding-left: 20%;
+    color: #fff;
 }

@@ -1,6 +1,7 @@
 .container .titulo h2{
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    color: #fff;
 }
 
 main .container .table{
@@ -9,7 +10,7 @@ main .container .table{
     padding-bottom: 20px;
 }
 .bb{
-    box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px rgb(124, 121, 121);
     
 }
 tr{
